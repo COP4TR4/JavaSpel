@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+  </head>
+
+  <body>
+    <h1>Blackjack</h1>
+<div class="BlackBox">
+    <p id="text-area">Welcome to Blackjack!</p>
+    <button id="new-game-button">New Game!</button>
+    <button id="hit-button">Hit!</button>
+    <button id="stay-button">Stay</button>
+</div>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.BlackBox p{
+    color: white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.BlackBox {
+    width: 320px;
+    height: 420px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    text-align: center;
+}
+.BlackBox button{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: black;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.BlackBox button:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+</style>
+    
+    <script src="BlackCode.js"></script>
+  </body>
+
+</html>
